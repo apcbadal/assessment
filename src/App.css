@@ -1,0 +1,86 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.card {
+  height: 28rem;
+  width: 28rem;
+  /* border: 1px solid grey; */
+  position: relative;
+  /* background-color: black; */
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.c_top {
+  height: 40%;
+  width: 100%;
+  position: relative;
+  background-color: black;
+
+
+}
+
+/* .c_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} */
+
+.c_top_item {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.c_middle {
+  height: 40%;
+  width: 100%;
+
+}
+
+.c_middle_top {
+  display: flex;
+  position: absolute;
+
+  /* top: 30%; */
+  margin-top: -45px;
+  z-index: 9;
+
+
+}
+
+.c_middle_m {
+
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  margin-left: 10px;
+  /* border: 1px solid green; */
+}
+
+.input {
+  border: none;
+  background-color: #eee;
+  height: 40px;
+  width: 16rem;
+  outline: none;
+  font-size: 16px;
+  padding: 7px;
+}
+
+.btn {
+  margin-left: 10px;
+  padding: 7px;
+  cursor: pointer;
+  border: none;
+}
